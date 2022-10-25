@@ -1,0 +1,45 @@
+*{
+    --primary-color: rgb(97, 83, 40);
+    font-family: 'Caveat', cursive;
+}
+.main-container{
+    background-image: url(images/1616621777_41-p-fon-bumaga-50.jpg);
+    background-size: contain;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    padding: 100px;
+    margin: 100px auto;
+    box-shadow: 5px 5px 10px var(--primary-color);
+}
+.list-box{
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.list-box__input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    opacity: 0.7;
+    font-size: 24px;
+    font-weight: 600;
+}
+.list-box__button{
+    width: 200px;
+    height: 30px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    font-size: 22px;
+    background-image: linear-gradient(to bottom, #916c49 30%, #dbcfc1c0);
+    color: rgb(214, 222, 228);
+    text-shadow: 1px 2px 5px black;
+}
+.list-box__button:hover{
+    cursor: pointer;
+    box-shadow: -2px 2px 5px var(--primary-color);
+}
