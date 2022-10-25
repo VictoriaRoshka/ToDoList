@@ -5,25 +5,29 @@
         <title>Список дел</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <link rel="stylesheet" type="text/css" href="slyles.css"/>
-        <link rel="stylesheet" type="text/css" href="script.js"/>
         <link rel="stylesheet" type="text/css" href="reset.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+        
 
     </head>
     <body>
         <div class="main-container">
-            <div class="title" id="title"></div>
-            <div class="list-box" align="center">
-                <input type="text" class="list-box__input"/>
-                <button class="list-box__button">Добавить</button>
+            <div class="title" id="title" align="center"></div>
+            <div class="list-box" align="center" id="list-box">
+                <input type="text" class="list-box__input" id="input"/>
+                <button onclick='addList()' class="list-box__button" id="button">Добавить</button>
+                <ul class="list-box__list" id="list">
+                    <li></li>
+                </ul>
             </div>
             
 
         </div>
         
 
-
+        <script src="script.js"></script>
     </body>
+    
 </html>
