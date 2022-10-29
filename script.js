@@ -9,20 +9,26 @@ else {
 }
 function addList(){
 
+    if (count < 5){
+        addList
+    }
+    else {
+      alert("Максимальное количество дел: 5")
+
+    }
+
     let myBox = document.getElementById("list-box")
     let myInput = document.getElementById("input")
     let myButton = document.getElementById("button")
     let myList = document.getElementById("list")
     
     let value = myInput.value
-    
-    myBox.innerHTML = myBox.innerHTML + "<ul>" +"<li>" + value + "</li>" + "</ul>"
-    
-    
-    
+
+    myList.innerHTML = myList.innerHTML + "<li>" + value + "</li>" 
+    myInput.value = " "
+    count = count + 1
 }
 
-
-
+let count = 0
 
 
