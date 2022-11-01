@@ -58,6 +58,7 @@ ul{
     color: var(--primary-color1);
     text-shadow: 1px 1px black;
     font-size: 20px;   
+    list-style:decimal;
 }
 @media (max-width: 600px){
     .main-container{
