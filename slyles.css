@@ -58,7 +58,7 @@ ul{
     color: var(--primary-color1);
     text-shadow: 1px 1px black;  
     list-style:decimal;
-    font-size: 40px;
+    font-size: 38px;
 }
 @media (max-width: 600px){
     .main-container{
@@ -67,8 +67,11 @@ ul{
         height: 600px;
     }
     .title{
-        font-size: 32px;
+        font-size: 30px;
     }
+    ul(
+        font-size: 34px;
+    )
 }
 @media(max-width: 320px){
     .main-container{
