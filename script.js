@@ -9,7 +9,7 @@ else {
 }
 function addList(){
 
-    if (count >= 5){
+    if (count > 5){
         alert("Максимальное количество дел: 5")
         return
     }
