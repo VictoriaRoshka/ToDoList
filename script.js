@@ -11,9 +11,11 @@ function addList(){
 
     if (count < 5){
         addList
+        count = true
     }
     else {
       alert("Максимальное количество дел: 5")
+      count = false
 
     }
 

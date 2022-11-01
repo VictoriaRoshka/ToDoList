@@ -56,9 +56,9 @@
 }
 ul{
     color: var(--primary-color1);
-    text-shadow: 1px 1px black;
-    font-size: 20px;   
+    text-shadow: 1px 1px black;  
     list-style:decimal;
+    font-size: 40px;
 }
 @media (max-width: 600px){
     .main-container{
