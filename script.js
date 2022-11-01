@@ -9,14 +9,9 @@ else {
 }
 function addList(){
 
-    if (count < 5){
-        addList
-        count = true
-    }
-    else {
-      alert("Максимальное количество дел: 5")
-      count = false
-
+    if (count >= 5){
+        alert("Максимальное количесвто дел: 5")
+        return
     }
 
     let myBox = document.getElementById("list-box")
