@@ -63,10 +63,15 @@ ul{
 @media (max-width: 600px){
     .main-container{
         margin: 0 auto;
-        padding-top: 100px;
+        padding: 100px 50px;
         height: 600px;
     }
     .title{
         font-size: 32px;
+    }
+}
+@media(max-width: 320px){
+    .main-container{
+        padding: 50px 0px 10px;
     }
 }
