@@ -18,13 +18,17 @@ function addList(){
     let myInput = document.getElementById("input")
     let myButton = document.getElementById("button")
     let myList = document.getElementById("list")
-    
     let value = myInput.value
+    
+    if (value.length > 0){
+        
 
-    myList.innerHTML = myList.innerHTML + "<li>" + value + "</li>" 
-    myInput.value = " "
-    count = count + 1
+        myList.innerHTML = myList.innerHTML + "<li>" + value + "</li>" 
+        myInput.value = ""
+        count = count + 1
+    }
 }
+
 
 let count = 0
 
